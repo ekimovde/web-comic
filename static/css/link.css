@@ -1,0 +1,42 @@
+/* --- LINK --- */
+
+.link {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons__block {
+  margin-right: 10px;
+}
+
+.buttons__block:last-child {
+  margin-right: 0;
+}
+
+.buttons__link {
+  color: #F9C50B;
+  background: #2B2700;
+  border-style: none;
+  padding: 8px 15px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.buttons__icon {
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.buttons__icon_right {
+  margin-right: 0;
+  margin-left: 4px;
+}
